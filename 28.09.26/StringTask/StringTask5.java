@@ -3,7 +3,6 @@ class StringTask5{
 		String text = args[0];
 		String newString = "";
 
-		
 		for (int i = 0; i < args[0].length(); i++){
 			char c = text.charAt(i);
 			if (c != ' '){
